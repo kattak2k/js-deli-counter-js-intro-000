@@ -23,6 +23,7 @@
         return "The line is currently empty.";
       } else {
         for (let i = 0; i < line.length; i++){
+          debugger;
           let idx = i + 1;
           list += `${idx}. ${line[i]}`;
           if (idx != line.length){
