@@ -29,7 +29,6 @@
             list += ", "
           }
         }
-
           return `The line is currently: ${list}`
       }
     }
