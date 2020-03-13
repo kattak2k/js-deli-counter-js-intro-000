@@ -26,7 +26,7 @@
           let idx = i + 1;
           list += `${idx}. line[i]`
           if (idx != line.length){
-            list += ', '
+            list += ", "
           }
         }
 
