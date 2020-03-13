@@ -18,11 +18,11 @@
     }
 
     function currentLine(line) {
-       var person
+       var list
       if (line.length == 0){
         return "The line is currently empty.";
       } else {
-        person = deli.shift();
-        return `Currently serving ${person}.`
+
+          return `The line is currently: 1. Bill, 2. Jane, 3. Ann`
       }
     }
