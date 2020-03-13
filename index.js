@@ -1,13 +1,13 @@
-    let katzDeli = [];
+    let deli = [];
 
-    function takeANumber(katzDeli, x) {
+    function takeANumber(deli, x) {
       let idx = 0;
-      katzDeli.push(x);
-      idx = katzDeli.indexOf(x) + 1
+      deli.push(x);
+      idx = deli.indexOf(x) + 1
      return  `Welcome, ${x}. You are number ${idx} in line.`
     }
 
-    function nowServing(katzDeli, x) {
+    function nowServing(deli) {
       let idx = 0;
       katzDeli.push(x);
       idx = katzDeli.indexOf(x) + 1
