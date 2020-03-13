@@ -8,12 +8,11 @@
     }
 
     function nowServing(deli) {
+       var person
       if (deli.length == 0){
-        return "There is nobody waiting to be served!"
+        return "There is nobody waiting to be served!";
+      } else {
+        person = deli.shift();
+        return `Currently serving ${person}.`
       }
-
-      let idx = 0;
-      deli.shift();
-      idx = deli.indexOf(x) + 1
-     return  `Welcome, ${x}. You are number ${idx} in line.`
     }
