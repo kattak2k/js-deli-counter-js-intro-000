@@ -24,7 +24,7 @@
       } else {
         for (let i = 0; i < line.length; i++){
           let idx = i + 1;
-          list += `${idx}. line[i]`;
+          list += `${idx}. ${line[i]}`;
           if (idx != line.length){
             list += ", ";
           }
