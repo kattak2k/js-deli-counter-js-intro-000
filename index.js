@@ -3,6 +3,6 @@
     function takeANumber(katzDeli, x) {
       let idx;
       katzDeli.push(x);
-
-     return  `Welcome, Ada. You are number 1 in line.`
+      idx = katzDeli.indexOf(x) + 1
+     return  `Welcome, Ada. You are number ${idx} in line.`
     }
