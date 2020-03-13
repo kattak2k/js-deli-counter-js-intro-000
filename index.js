@@ -8,6 +8,10 @@
     }
 
     function nowServing(deli) {
+      if (deli.length == 0){
+        return "There is nobody waiting to be served!"
+      }
+
       let idx = 0;
       deli.shift();
       idx = deli.indexOf(x) + 1
