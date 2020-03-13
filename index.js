@@ -9,7 +9,7 @@
 
     function nowServing(deli) {
       let idx = 0;
-      katzDeli.push(x);
-      idx = katzDeli.indexOf(x) + 1
+      deli.shift();
+      idx = deli.indexOf(x) + 1
      return  `Welcome, ${x}. You are number ${idx} in line.`
     }
