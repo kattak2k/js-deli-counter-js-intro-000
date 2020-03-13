@@ -26,4 +26,3 @@
         return `Currently serving ${person}.`
       }
     }
-    
