@@ -1,6 +1,6 @@
     let katzDeli = [];
 
-    function takeANumber(deli, x) {
+    function takeANumber(katzDeli, x) {
       debugger;
       let idx;
       katzDeli.push(x);
